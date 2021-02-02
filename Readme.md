@@ -52,7 +52,7 @@ docker run -d \
 -e CRON_MONTH_DAY="*" \
 -e CRON_MONTH="*" \
 -e CRON_WEEK_DAY="*" \
-bkp_database:1.1
+ladis29/pgbkp:1.1
 ```
 
 ### Rodando comandos manualmente

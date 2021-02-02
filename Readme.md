@@ -23,7 +23,6 @@
 | CRON_MONTH_DAY | "*" | Dia da config da crontab(se você quiser rodar em dias específicos do mês) |
 | CRON_MONTH | "*" | Mês da config da crontab(se você quiser rodar em meses específicos do ano) |
 | CRON_WEEK_DAY | "*" | Dia da semana da config da crontab(se você quiser rodar em dias específicos da semana)|
-|   |   |   |
 
 #### As variáveis marcadas com um '*' acima são obrigatórias, as demais podem ser mantido o valor padrão.
 

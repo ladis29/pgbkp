@@ -7,8 +7,8 @@
 ### Variáveis
 
 |  Variável  |  Valor Padrão  |  Descrição  |
-|---|---|---|
-| CREATION_DATE  | /bin/date +%Y%m%d%H%M | Data do sistema. Fará parte do nome dos backups feitos paradiferenciá-los |
+|---|:---:|---|
+| CREATION_DATE  | /bin/date +%Y%m%d%H%M | Data do sistema. Fará parte do nome dos backups feitos para diferenciá-los |
 | RETENTION | 10 | Tempo em dias de retenção dos backups, após isso os backups começam a ser apagados |
 | BKP1_NAME  | database1_bkp | Nome do backup da database1 |
 | BKP2_NAME  | database2_bkp | Nome do backup da database2 |

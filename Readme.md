@@ -5,8 +5,9 @@
 - Para facilitar adicionei uma variável que permite alterar o timezone do container.
 
 ### Variáveis
-| Variável  | Valor Padrão | Descrição  |
-|---|---|---|---|---|
+
+|  Variável  |  Valor Padrão  |  Descrição  |
+|---|---|---|
 | CREATION_DATE  | /bin/date +%Y%m%d%H%M | Data do sistema. Fará parte do nome dos backups feitos paradiferenciá-los |
 | RETENTION | 10 | Tempo em dias de retenção dos backups, após isso os backups começam a ser apagados |
 | BKP1_NAME  | database1_bkp | Nome do backup da database1 |
@@ -21,9 +22,10 @@
 | CRON_HOUR | "20" | Hora da config da crontab |
 | CRON_MONTH_DAY | "*" | Dia da config da crontab(se você quiser rodar em dias específicos do mês) |
 | CRON_MONTH | "*" | Mês da config da crontab(se você quiser rodar em meses específicos do ano) |
-| CRON_WEEK_DAY | "*" | Dia da semana da config da crontab(se você quiser rodar em dias específicos da semana)  |
+| CRON_WEEK_DAY | "*" | Dia da semana da config da crontab(se você quiser rodar em dias específicos da semana)|
+|   |   |   |
 
-- As variáveis marcadas com um '*' acima são obrigatórias, as demais podem ser mantido o valor padrão.
+#### As variáveis marcadas com um '*' acima são obrigatórias, as demais podem ser mantido o valor padrão.
 
 ### Adicionando volume ao container
 - Caso você queira adicionar um volume para persistir seus dumps pode adicionar o comando:

@@ -2,13 +2,13 @@
 
 - Criei esse container para fazer dump de duas bases de dados postgres.
 - O container tem um shell que roda em um horário específico que pode ser programado na cron do container.
-- Para facilitar adicionei uma variável que permite alterar o timezone do container.
+- Para facilitar adicionei, na versão 1.1, uma variável que permite alterar o timezone do container, por padrão o horário é UTC.
 
 ### Variáveis
 
 |  Variável  |  Valor Padrão  |  Descrição  |
-|---|---|---|
-| CREATION_DATE  | /bin/date +%Y%m%d%H%M | Data do sistema. Fará parte do nome dos backups feitos paradiferenciá-los |
+|---|:---:|---|
+| CREATION_DATE  | /bin/date +%Y%m%d%H%M | Data do sistema. Fará parte do nome dos backups feitos para diferenciá-los |
 | RETENTION | 10 | Tempo em dias de retenção dos backups, após isso os backups começam a ser apagados |
 | BKP1_NAME  | database1_bkp | Nome do backup da database1 |
 | BKP2_NAME  | database2_bkp | Nome do backup da database2 |
